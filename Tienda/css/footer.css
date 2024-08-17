@@ -1,0 +1,38 @@
+footer{
+    background:linear-gradient( rgb(13, 10, 218),rgb(25, 4, 119));
+}
+footer .contenedor{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-bottom: 30px;
+color: #fff;
+}
+.copy{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.red-soc{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.red-soc a{
+color: #fff;
+text-decoration: none;
+}
+
+/* ------------Responsive----------- */
+
+
+        /*tablets*/
+        @media(min-width: 789px){
+            .red-soc{
+                width: auto;
+            }
+            footer .contenedor{
+                justify-content: space-between;
+            }
+        }
